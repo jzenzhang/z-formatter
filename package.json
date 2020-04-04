@@ -1,9 +1,11 @@
 {
   "name": "z-formatter",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "一个简单js工具库",
   "main": "bin/index.js",
-  "bin": "bin/index.js",
+  "bin": {
+    "z-formatter": "bin/index.js"
+  },
   "scripts": {
     "build": "webpack",
     "test": "jest"
@@ -25,5 +27,10 @@
     "webpack": "^4.32.2",
     "webpack-cli": "^3.3.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:jzenzhang/z-formatter.git"
+  },
+  "keywords": []
 }
